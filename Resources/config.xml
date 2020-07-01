@@ -13,10 +13,11 @@
         </element>
         <element type="combo">
             <name>Users</name>
-            <store>Shopware.apps.Base.store.user</store>
-            <option>
+            <label lang="de">Für folgende Benutzer sperren</label>
+            <store>Shopware.apps.Base.store.User</store>
+            <options>
                 <multiSelect>true</multiSelect>
-            </option>
+            </options>
         </element>
     </elements>
 </config>
