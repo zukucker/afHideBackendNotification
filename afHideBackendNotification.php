@@ -35,14 +35,17 @@ class afHideBackendNotification extends Plugin
         $view = $controller->View();
         $request = $controller->Request();
 
-        //$view->addTemplateDir($this->getPath(). '/Resources/views');
-        $this->container->get('Template')->addTemplateDir(
-            $this->getPath() . '/Resources/views'
-        );
+        $view->addTemplateDir($this->getPath(). '/Resources/views');
+
         $args->getSubject()->View()->extendsTemplate('backend/afHideBackendNotification/index/index.tpl');
         $view->assign('hideGrowl', $hideWarning);
-        //if($hideWarning){
-        //}
+
+        $userIDS = $config['Users'];
+        $currentUser = $view->getAssign('user');
+        $currentUserId = $currentUser->id;
+        if(in_array($currentUserId, $userIDS)){
+           $view->assign('blockedMessage', true);
+        }
     }
 
 }

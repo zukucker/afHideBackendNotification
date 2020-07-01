@@ -1,7 +1,6 @@
 {block name="backend/base/container"}
-{*{debug}*}
-<style>
-{if $hideGrowl}
+<style type="text/css">
+{if $hideGrowl && $blockedMessage}
     .growl-msg{
         display:none !important;
     }
