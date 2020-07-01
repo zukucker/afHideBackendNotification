@@ -19,7 +19,6 @@
           <li>Benutzer auswählen für welche die Benachrichtigungen nicht mehr sichtbar sein sollen</li>
           </ul>
           <br/></br>
-          <p>Ein Großes Dankeschön an Andreas van Loock, welcher mir sein altes Plugin zur Verfügung gestellt hat.</p>
       ]]>
     </description>
     <compatibility minVersion="5.2.0" />
