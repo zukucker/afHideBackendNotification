@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element type="boolean">
+            <name>warning</name>
+            <label lang="de">Warnungen ausblenden</label>
+            <label lang="en">Hide warnings</label>
+            <value>false</value>
+            <description lang="de">Hier werden die Warnungen ausgeblendet</description>
+            <description lang="en">Hopefully this text will help you.</description>
+        </element>
+        <element type="combo">
+            <name>Users</name>
+            <store>Shopware.apps.Base.store.user</store>
+            <option>
+                <multiSelect>true</multiSelect>
+            </option>
+        </element>
+    </elements>
+</config>
