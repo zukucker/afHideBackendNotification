@@ -1,4 +1,5 @@
 <?php
+/** Big thanks to Andreas van Look for sending his old Plugin **/
 
 namespace afHideBackendNotification;
 
