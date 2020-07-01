@@ -1,7 +1,9 @@
 # afHideBackendNotification
-## About afHideBackendNotification
-This skeleton contains a License file, fileheader and a basic README.
+## Ein einfaches Plugin zum Ausblenden der Benachrichtigungen für bestimmte Benutzer.
 
-## License
+Vorgehen:
+- Plugin installieren
+- In der Konfiguration Warnung ausblenden auf Ja stellen
+- Benutzer auswählen für welche die Benachrichtigungen nicht mehr sichtbar sein sollen
 
-Please see [License File](LICENSE) for more information.
+Ein Großes Dankeschön an Andreas van Loock, welcher mir sein altes Plugin zur Verfügung gestellt hat.
